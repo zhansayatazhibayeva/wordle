@@ -1,2 +1,2 @@
 Word Master/Wordle! 
-(https://github.com/user-attachments/assets/a097eba5-23fd-4a79-a55b-04348d2689b4)
+<img width="1470" alt="Screenshot 2024-12-18 at 11 27 40" src="https://github.com/user-attachments/assets/4bd67d91-04be-4c4e-ba29-a32202bf31b0" />
