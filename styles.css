@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.navbar{
+    height: 200px;
+    text-align: center;
+    padding-top: 100px;
+    border-bottom: 2px solid grey;
+}
+
+.scoreboard-letter{
+    width: 50px;
+    height: 50px;
+    border: 2px solid grey;
+    text-align: center;
+    font-size: 35px;
+    font-family:'Lato',sans-serif;
+}
+.scoreboard{
+    display: grid;
+    grid-template-columns: repeat(5,50px);
+    grid-template-rows: repeat(6,1fr);
+    gap: 10px;
+    place-content: center;
+    margin-top: 50px;
+}
+
+.invalid {
+    animation: animateOutline 1s ease-in-out;
+    outline-width: 5px;
+}
+
+@keyframes animateOutline {
+    0% {
+        outline-width: 5px; 
+        outline-offset: 0;
+        border-color: red;
+    }
+    50% {
+        outline-width: 6px; 
+        outline-offset: 2px;
+        border-color: orange;
+    }
+    100% {
+        outline-width: 5px; 
+        outline-offset: 0;
+        border-color: red;
+    }
+}
